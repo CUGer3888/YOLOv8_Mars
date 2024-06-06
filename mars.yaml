@@ -1,0 +1,22 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#在机器学习和深度学习项目中，我们通常需要将数据集划分为训练集（Train Set）、验证集（Validation Set）和测试集（Test Set）。
+#这些集合可以通过不同的方式进行组织和引用
+#1.目录（dir）:
+#在这种方式中，训练集、验证集和测试集分别位于不同的目录中。
+#例如，path/to/train_imgs 可能包含所有用于训练的图像，path/to/val_imgs 包含用于验证的图像，而 path/to/test_imgs 包含用于最终测试的图像。
+#这种方式便于管理和组织大量文件，尤其是在使用文件夹结构来区分不同类别的图像时。
+#2.文本文件（file）:
+#在这种情况下，一个文本文件（如 .txt 或 .csv 文件）列出了所有图像的路径。
+#例如，path/to/imgs.txt 可能包含一个列表，每行一个图像路径，指示哪些图像属于训练集、验证集或测试集。
+#这种方式适用于图像分散存储在不同位置的情况，或者需要频繁更新数据集时。
+#3.列表（list）:
+#在这种方式中，训练集、验证集和测试集的路径被直接存储在一个 Python 列表或其他编程语言的数组中。
+#例如，[path/to/imgs1, path/to/imgs2, ...] 是一个包含了多个图像路径的列表。
+#这种方式在编写脚本或程序时非常方便，可以直接在代码中定义和管理数据集。
+path: "C:\\Users\\CUGac\\PycharmProjects\\astar\\.venv\\Scripts\\mars\\dataset\\images" # 设置成训练图片地址，使用"\\"格式，r""格式不支持
+train: "train" # train images (relative to 'path')
+val: "val" # val images (relative to 'path')
+
+# Classes
+nc: 7 # number of classes 7种地形
+names: ["冰盖","坑链","山","山谷","平原","洼地","环形坑"] # class names
