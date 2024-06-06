@@ -1,0 +1,37 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "\u51b0\u76d6"
+    },
+    {
+      "id": 1,
+      "name": "\u5751\u94fe"
+    },
+    {
+      "id": 2,
+      "name": "\u5c71"
+    },
+    {
+      "id": 3,
+      "name": "\u5c71\u8c37"
+    },
+    {
+      "id": 4,
+      "name": "\u5e73\u539f"
+    },
+    {
+      "id": 5,
+      "name": "\u6d3c\u5730"
+    },
+    {
+      "id": 6,
+      "name": "\u73af\u5f62\u5751"
+    }
+  ],
+  "info": {
+    "year": 2024,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
