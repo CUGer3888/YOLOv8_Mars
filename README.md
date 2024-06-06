@@ -1,3 +1,4 @@
+感谢武大学长 戴维难 的帮助，教程：https://www.bilibili.com/video/BV1nx4y187Po/
 可能遇到的问题如下：
 
 1.anaconda的安装
@@ -30,12 +31,13 @@
 
   pip install yolo
 
-3.安装CPU版本pytorch和torchvision
+3.正确，快速安装CPU版本pytorch和torchvision
+  教程：https://blog.csdn.net/shiwanghualuo/article/details/122860521
+
   打开pytorch官网
+  
   找到对应CUDA版本的下载链接
 
+  在pyharm中使用pip安装，得到下载地址，终止程序，前往download.pytorch.org/whl/torch_stable.html下载对应当前电脑的版本
 
-
-
-
-卸载项目依赖为你，，使用对应命令下载GPU版本
+  同理torchvision也一样，注意对应版本一致
