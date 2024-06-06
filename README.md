@@ -1,3 +1,7 @@
+火星图片来源：https://moon.bao.ac.cn/Mars/index/index.html#
+
+配合使用截图代码快速截图
+
 感谢武大学长 戴维难 的帮助，教程：https://www.bilibili.com/video/BV1nx4y187Po/
 
 可能遇到的问题如下：
@@ -42,3 +46,7 @@
   在pyharm中使用pip安装，得到下载地址，终止程序，前往download.pytorch.org/whl/torch_stable.html下载对应当前电脑的版本
 
   同理torchvision也一样，注意对应版本一致
+  
+4.labelstudio的使用
+
+  教程：https://www.bilibili.com/video/BV1Ht4y1d7Yr/
